@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Sum_{n = 1..24} n^2 = 70^2</title>
+  </head>
+  <body>
+    <script>
+      function showSum(from, to, power){
+        var sum = from ** power;
+        var formula = from + '^' + power;
+        for(var i=from + 1; i<=to + 1; i++){
+          document.write('<p>' + formula + ' = ' + sum + '</p>');
+          sum += i ** power;
+          formula += '+' + i + '^' + power;
+        }
+      }
+      showSum(1, 24, 2)
+      showSum(15, 34, 3)
+    </script>
+  </body>
+</html>
