@@ -30,4 +30,3 @@ for n in range(1, 10):
     a_list.append(sum(a))
     print([n, a])
 print(a_list)
-
