@@ -1,54 +1,39 @@
 require 'prime'
 
-def power0(a, n)
-  return 1 if n == 0
-  k = power0(a, n >> 1)
-  k *= k
-  return k if n & 1 == 0
-  return k * a
-end
-
-# x > 0
-def sigma(x, i)
-  sum = 1
-  pq = i.prime_division
-  pq.each{|a, n| sum *= (power0(a, (n + 1) * x) - 1) / (power0(a, x) - 1)}
-  sum
-end
-
-def bernoulli(n)
-  ary = []
-  a = []
-  (0..n).each{|i|
-    a << 1r / (i + 1)
-    i.downto(1){|j| a[j - 1] = j * (a[j - 1] - a[j])}
-    ary << a[0] # Bn = a[0]
-  }
+def A005259(n)
+  i = 0
+  a, b = 1, 5
+  ary = [1]
+  while i < n
+    i += 1
+    a, b = b, ((((34 * i + 51) * i + 27) * i + 5) * b - i ** 3 * a) / (i + 1) ** 3
+    ary << a
+  end
   ary
 end
 
-def E0_2k(k, n)
-  a = -4 * k / bernoulli(2 * k)[-1]
-  [1] + (1..n).map{|i| a * sigma(2 * k - 1, i)}
+def s(k, n)
+  s = 0
+  (1..n).each{|i| s += i if n % i == 0 && i % k == 0}
+  s
 end
 
-# ary[0] = 1
-def sqrt_a(ary)
-  n = ary.size - 1
-  a = [1]
-  (0..n - 1).each{|i| a << (ary[i + 1] - (1..i).inject(0){|s, j| s + a[j] * a[-j]}) / 2}
-  a
+def A(ary, n)
+  a_ary = [1]
+  a = [0] + (1..n).map{|i| ary.inject(0){|s, j| s + j[1] * s(j[0], i)}}
+  (1..n).each{|i| a_ary << (1..i).inject(0){|s, j| s - a[j] * a_ary[-j]} / i}
+  a_ary
 end
 
-def A(k, m, n)
-  ary = E0_2k(k, n)
-  m.times{ary = sqrt_a(ary)}
-  ary
-end
+n = 300
+a = Prime.take(n + 1).to_a
+a.shift
 
-n = 20
-(1..2).each{|m|
-  (1..7).each{|k|
-    p [2 * k, 1r / 2 ** m, A(k, m, n)]
-  }
-}
+ary0 = A005259(a[-1])
+p ary01 = a.map{|i| ary0[(i - 1) / 2] % i}
+p ary02 = a.map{|i| ary0[(i - 1) / 2] % (i * i)}
+
+ary1 = A([[1, 4], [2, 4]], a[-1])
+p ary01 == a.map{|i| ary1[(i - 1) / 2] % i}
+p ary02 == a.map{|i| ary1[(i - 1) / 2] % (i * i)}
+
