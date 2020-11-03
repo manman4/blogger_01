@@ -1,0 +1,9 @@
+str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+# ROT13
+p str.tr("A-Za-z", "N-ZA-Mn-za-m")
+p str.tr("A-Za-z", "N-ZA-Mn-za-m").tr("A-Za-z", "N-ZA-Mn-za-m")
+p str.tr("\x41-\x5a\x61-\x7a", "\x4e-\x5a\x41-\x4d\x6e-\x7a\x61-\x6d")
+p str.tr("\x41-\x5a\x61-\x7a", "\x4e-\x5a\x41-\x4d\x6e-\x7a\x61-\x6d").tr("\x41-\x5a\x61-\x7a", "\x4e-\x5a\x41-\x4d\x6e-\x7a\x61-\x6d")
+# ROT47
+p str.tr("\x21-\x7e", "\x50-\x7e\x21-\x4f")
+p str.tr("\x21-\x7e", "\x50-\x7e\x21-\x4f").tr("\x21-\x7e", "\x50-\x7e\x21-\x4f")
