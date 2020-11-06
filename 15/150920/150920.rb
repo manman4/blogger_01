@@ -29,7 +29,7 @@ def multinomials_and_partitions(n)
   m = (1..n).inject(:*)
   ary = []
   partion_ary(n).each{|a|
-    ary << m / (f(a) * f(a.group_by(&:to_i).map{|i| i.last.size)))
+    ary << m / (f(a) * f(a.group_by(&:to_i).map{|i| i.last.size}))
   }
   ary
 end
