@@ -1,4 +1,3 @@
-# Using graphillion
 from graphillion import GraphSet
 
 def make_nXnXn_grid_graph(n):
