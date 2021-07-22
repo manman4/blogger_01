@@ -20,4 +20,3 @@ show_key(G.multiply_by_scalar(2017101920171019))
   show_key(G.multiply_by_scalar(i))
 }
 
-
