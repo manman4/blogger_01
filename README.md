@@ -64,3 +64,8 @@
 
 日付.拡張子
 
+# 重要な記事
+
+| 日付 | 内容 | 
+| ----- | ----- | 
+| [180917](https://manchanr6.blogspot.com/2018/09/180917.html) | The sphere packing problem in dimension 8 | 
