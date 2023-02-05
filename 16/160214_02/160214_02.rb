@@ -21,4 +21,3 @@ ary.each{|pr|
     p [pr, t, n, f(pr, 2 * t + 1) + 2 == f(pr, n)]
   }
 }
-
