@@ -4,4 +4,3 @@ require 'prime'
   j = 78557 * 2 ** i + 1
   p [j, j.prime_division]
 }
-
