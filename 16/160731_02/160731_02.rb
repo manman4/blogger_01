@@ -7,4 +7,3 @@ ary = []
   ary << i * j if i * j == k * l
 }
 p ary.uniq.sort
-
