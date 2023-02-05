@@ -13,3 +13,4 @@ for(n=0, 10, print(n, " ", Vecrev(T(n))))
 T(n) = if(n==0, 1, u*sum(k=1, n, binomial(n-1, k-1)*sigma(k)*T(n-k)));
 print("A338871");
 for(n=0, 10, print(n, " ", Vecrev(T(n))))
+
