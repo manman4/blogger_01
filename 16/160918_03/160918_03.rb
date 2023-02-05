@@ -12,4 +12,3 @@ def bernoulli(n)
 end
 
 p bernoulli(40)
-
