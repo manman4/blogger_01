@@ -35,3 +35,4 @@ def multinomials_and_partitions(n)
 end
 
 (1..15).each{|i| p multinomials_and_partitions(i)}
+
