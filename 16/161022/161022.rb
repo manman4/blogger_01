@@ -16,4 +16,3 @@ n = 50
   k = (0..i).inject(0){|s, j| s + ncr(i, j) ** 2 * nhr(2 * i, i - j)}
   p [i, k, k == 3 * ncr(2 * i - 1, i - 1) ** 2]
 }
-
