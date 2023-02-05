@@ -12,3 +12,4 @@ n = 20
 (1..10).each{|m|
   p [m, (0..n).map{|i| (0..i).inject(0){|s, j| s + ncr(i, j) ** 2 * m ** j}}]
 }
+
