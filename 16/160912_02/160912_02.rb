@@ -7,4 +7,3 @@ Prime.each(10 ** 4){|i|
   ary << s if s.prime?
 }
 p ary
-
