@@ -341,4 +341,3 @@ int main(int argc, char* argv[])
     printf("# of solutions = %lld\n", num_solutions);
     return 0;
 }
-
