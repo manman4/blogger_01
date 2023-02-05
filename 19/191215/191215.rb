@@ -7,4 +7,3 @@ def A124223(p)
 end
 
 p Prime.each(200).map{|i| A124223(i)}.flatten
-
