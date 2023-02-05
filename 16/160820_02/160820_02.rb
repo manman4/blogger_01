@@ -8,3 +8,4 @@ while i < n
   c, d = d, ((((34 * i + 51) * i + 27) * i + 5) * d - i ** 3 * c) / (i + 1) ** 3
   p i if a.numerator.gcd(c) > 1
 end
+
