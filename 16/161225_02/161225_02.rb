@@ -7,4 +7,3 @@ end
 m = 15
 n = 10
 (-m).upto(m){|i| p [i, A(i, n)]}
-
