@@ -35,4 +35,3 @@ n = 100
 p ary0 = (0..n).map{|i| bernoulli_0(i)}
 p ary0 == (0..n).map{|i| bernoulli_1(i)}
 p ary0 == (0..n).map{|i| bernoulli_2(i)}
-
