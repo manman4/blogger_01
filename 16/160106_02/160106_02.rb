@@ -7,3 +7,4 @@ end
 (2..130).each{|n|
   p [n, partition(n, 2, n).select{|ary| ary.inject(0){|s, i| s + 1 / i.to_r} == 1}]
 }
+
