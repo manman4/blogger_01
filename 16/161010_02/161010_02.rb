@@ -7,4 +7,3 @@ def pow(a, m, mod)
 end
 
 [7469046275, 598371102650063].each{|i| p [i, pow(3, i, i)]}
-
