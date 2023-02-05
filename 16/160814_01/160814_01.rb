@@ -47,4 +47,3 @@ c_ary = A051030(n)
   a, b, c = a_ary[i], b_ary[i], c_ary[i]
   p [a, b, c, a * a * a + b * b * b == c * c * c + (-1) ** i]
 }
-
