@@ -22,3 +22,4 @@ def A(n)
 end
 
 p (0..20).map{|i| A(i)}
+
