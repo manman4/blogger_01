@@ -28,3 +28,4 @@ print([A(3, n) for n in range(3, 30)])
 print([A(4, n) for n in range(3, 20)])
 print([A(5, n) for n in range(3, 10)])
 print([A(6, n) for n in range(3, 8)])
+
