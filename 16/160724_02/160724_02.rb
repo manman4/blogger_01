@@ -29,4 +29,3 @@ p numbers = [20160724, 20160725, 20160726]
 p encrypted_numbers = numbers.map{|i| pow(i, e, n)}
 # 復号化
 p encrypted_numbers.map{|i| pow(i, d, n)}
-
