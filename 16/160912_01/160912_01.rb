@@ -7,4 +7,3 @@ Prime.each(10 ** 8){|i|
   ary << s if Math.sqrt(s).to_i ** 2 == s
 }
 p ary
-
