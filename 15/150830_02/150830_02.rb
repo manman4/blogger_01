@@ -18,4 +18,3 @@ end
 (0..11).each{|i|
   p affine(7 ** i, 0, @ary.join)
 }
-
