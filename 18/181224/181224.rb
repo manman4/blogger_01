@@ -21,4 +21,3 @@ n = 500
   j = B(i, n)
   p [i, j.size, j]
 }
-
