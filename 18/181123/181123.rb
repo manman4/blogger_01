@@ -44,4 +44,3 @@ n = 40
 (1..n).each{|i| p B(i)}
 # Row sums
 p (1..n).map{|i| B(i).inject(:+)}
-
