@@ -5,4 +5,3 @@ p d = a * a + b * b
 p e = c * c
 p d == e
 p a * b / 2
-
