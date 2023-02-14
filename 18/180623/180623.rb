@@ -18,4 +18,3 @@ end
 n = 50
 ary = RiemannSiegelTheta_infty(n)
 (1..n).each{|i| p [-(2 * i - 1), ary[i - 1]]}
-
