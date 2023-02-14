@@ -18,4 +18,3 @@ n = 32
   ary = ary.map(&:to_i) if ary.all?{|i| i.denominator == 1}
   p ary
 }
-
