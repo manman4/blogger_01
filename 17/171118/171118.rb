@@ -18,4 +18,3 @@ p A(ary1, ary1, n)
 p A(ary1, ary2, n)
 p A(ary2, ary1, n)
 p A(ary2, ary2, n)
-
