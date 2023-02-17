@@ -38,3 +38,4 @@ p ary1 = [0] + A1(n)
 p ary2 = [0] * 2 + A2(n)
 p ary3 = [0] * 3 + A3(n)
 p (0..n).map{|i| ary0[i] - 480 * ary1[i] - 16896 * ary2[i] + 8192 * ary3[i]}
+
