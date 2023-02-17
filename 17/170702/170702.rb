@@ -36,4 +36,3 @@ p ary02 = a.map{|i| ary0[(i - 1) / 2] % (i * i)}
 ary1 = A([[1, 4], [2, 4]], a[-1])
 p ary01 == a.map{|i| ary1[(i - 1) / 2] % i}
 p ary02 == a.map{|i| ary1[(i - 1) / 2] % (i * i)}
-
