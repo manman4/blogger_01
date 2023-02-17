@@ -25,4 +25,3 @@ p (1..n).map{|i| PD(i)}
 p (1..n).map{|i| PD_t(i)}
 p (1..n).map{|i| PDO(i)}
 p (1..n).map{|i| PDO_t(i)}
-
