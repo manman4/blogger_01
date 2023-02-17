@@ -3,4 +3,3 @@ def A(n)
 end
 
 (0..7).each{|i| p [i, A(10 ** i)]}
-
