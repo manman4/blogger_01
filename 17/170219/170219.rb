@@ -139,3 +139,4 @@ c_ary = [764412173217, 5323905468000, 1621003400000]
 f_ary0, f_ary1, f_ary2 = f(8, 0, n), f(5, 2, n), f(2, 4, n)
 (0..n).each{|i| show(e_ary[i], c_ary, [f_ary0[i], f_ary1[i], f_ary2[i]])}
 p ""
+
