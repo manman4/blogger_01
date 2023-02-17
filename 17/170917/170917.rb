@@ -43,4 +43,3 @@ p ary2 = I(ary0, n)
 p ary3 = I(ary1, n)
 p mul(ary2, ary1, n)
 p mul(ary3, ary0, n)
-
