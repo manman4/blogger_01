@@ -15,4 +15,3 @@ ary = []
   ary << s.real
 }
 p ary
-
