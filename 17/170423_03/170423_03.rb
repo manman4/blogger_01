@@ -18,4 +18,3 @@ s_ary = [['□'], ['□']]
   end
 }
 (1..s_ary[1..-1].size - 1).each{|i| p s_ary[i].join}
-
