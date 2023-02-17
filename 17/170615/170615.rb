@@ -25,3 +25,4 @@ Prime.each(n){|pr|
   j = a.inject(:+)
   p [a, j, j % pr]
 }
+
