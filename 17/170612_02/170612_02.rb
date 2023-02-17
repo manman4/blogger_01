@@ -100,3 +100,4 @@ p b = g(n)
 p c = mul(a, b, n).map{|i| i * 6}
 p ary2 = S(Apery(0, 6, n), x_ary, n)
 p c == ary2
+
