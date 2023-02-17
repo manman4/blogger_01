@@ -25,4 +25,3 @@ ary2 =
 n = 8
 ary = A(10 ** n)
 p (1..2 * n).map{|i| 8 * ary1[i] + 4 * ary[ary2[i]] + 4}
-
