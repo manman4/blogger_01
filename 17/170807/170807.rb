@@ -31,4 +31,3 @@ p ''
   x = i * (i + 1) * b_ary[i]
   p [i, x == (i + 2) * (2..i - 2).inject(0){|s, j| s + b_ary[j] * b_ary[i - j]} - 2 * (2..i - 2).inject(0){|s, j| s += ncr(i + 2, j) * b_ary[j] * b_ary[i - j]}, x]
 }
-
