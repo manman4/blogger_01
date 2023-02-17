@@ -49,4 +49,3 @@ p ""
 p ""
 # power0のように使うことも可能
 (0..n).each{|i| p power1(ary, i, i * 2)}
-
