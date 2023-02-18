@@ -26,4 +26,3 @@ print([A(four_corners(n),            n) for n in range(2, 10)])
 print([A(points_on_diagonal_1(n),    n) for n in range(2, 10)])
 print([A(points_on_diagonal_2(n),    n) for n in range(2, 10)])
 print([A(points_on_two_diagonals(n), n) for n in range(2, 10)])
-
