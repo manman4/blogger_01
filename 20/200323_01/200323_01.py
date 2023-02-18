@@ -14,3 +14,4 @@ def A003763(n):
     return A(2 * n)
 
 print([A003763(n) for n in range(1, 5)])
+
