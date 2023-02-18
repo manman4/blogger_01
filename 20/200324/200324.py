@@ -21,3 +21,4 @@ print([A([1,                     n * n], n) for n in range(2, 10)])
 print([A([1, n, n * (n - 1) + 1       ], n) for n in range(2, 10)])
 
 print([A([1, n, n * (n - 1) + 1, n * n], n) for n in range(2, 10)])
+
