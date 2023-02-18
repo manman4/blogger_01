@@ -25,3 +25,4 @@ end
 time = Time.local
 p (0..9).map{|i| sum_of_primes(10 ** i)}
 puts Time.local - time
+
