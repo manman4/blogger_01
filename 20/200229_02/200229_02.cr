@@ -25,3 +25,4 @@ def a332800_conjecture(n)
 end
 
 (0..19).each{|i| p a332800_conjecture(i)}
+
