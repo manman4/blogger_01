@@ -10,3 +10,4 @@ def A(r)
 end
 
 (0..20).each{|i| A(i)}
+
