@@ -29,3 +29,4 @@ def B(ary, digit)
 end
 
 (1..5).each{|i| B(A(i), i)}
+
