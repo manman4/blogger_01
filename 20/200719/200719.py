@@ -80,4 +80,3 @@ class Maze():
 maze = Maze(10, 15)
 maze.set_maze()
 maze.show_maze()
-
