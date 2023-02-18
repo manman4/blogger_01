@@ -11,4 +11,3 @@ def A(r):
 
 for i in range(21):
     A(i)
-
