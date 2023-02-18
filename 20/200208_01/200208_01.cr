@@ -20,3 +20,4 @@ end
 time = Time.local
 fib(100)
 puts Time.local - time
+
