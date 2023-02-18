@@ -28,4 +28,3 @@ def A(k, n)
 end
 
 (2..7).each{|i| p [i, (0..6).map{|j| A(i, j)}]}
-
