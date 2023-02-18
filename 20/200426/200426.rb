@@ -13,3 +13,4 @@ end
 n = 100
 (2..n).each{|i| A(i)}
 p (1..n).map{|i| B(i)}
+
