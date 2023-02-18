@@ -9,3 +9,4 @@ p a.repeated_permutations
 # 以下はだめ
 # a.repeated_permutations{|i| p i}
 a.each_repeated_permutation{|i| p i}
+
