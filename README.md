@@ -71,3 +71,4 @@
 | [170609](https://manchanr6.blogspot.com/2017/06/170609.html) | The Kac-Wakimoto Conjecture(1) | 
 | [171119](https://manchanr6.blogspot.com/2017/11/171119.html) | A generalized Euler transform | 
 | [180917](https://manchanr6.blogspot.com/2018/09/180917.html) | The sphere packing problem in dimension 8 | 
+
